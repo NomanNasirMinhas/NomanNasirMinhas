@@ -1,5 +1,5 @@
 # Noman Nasir Minhas
-## Software Engineer/Data Scientist/ML Engineer, Department of Computer Science, COMSATS University Islamabad, Pakistan. (2016 - Present)
+## Software Engineer/Data Scientist/ML Engineer
 ## BS Software Engineering, COMSATS University Islamabad
 ## BA in Political Science & International Relations, University of Sargodha
 Noman Nasir Minhas is curently enrolled in BS Software Engineering(Final Semester) at COMSATS University Islamabad. His area of interest includes Data Science,Machine Learning and Blockchain. He is also fluent in cross platform development technologies includig `React` and `Flutter`. He is currently working on developing a middleware for IoTA Distributed Ledger. He has completed multiple certifications in Data Science, Big Data, Deep Learning and Cryptography. He is currently enrolled in `Blockchain`, `Digital Forensics` and `PenTesting` Courses.He has firm grip on different programming languages and frameworks including `java`, `python`, `php`, `Flutter`, `c#`, `laravel`, `nodejs` and `React`. He is a quick learner and is ready to explore and learn new technologies. 
