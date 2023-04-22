@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Noman Nasir Minhhas</h1>
 <h3 align="center">Full Stack Web3.0, Rust, Solidity Developer</h3>
 
-![tryhackme stats](https://raw.githubusercontent.com/NomanNasirMinhas/NomanNasirMinhas/master/assets/thm_propic.png)
+<p align="center"> <img src="https://tryhackme-badges.s3.amazonaws.com/scorpion.tar.png" alt="TryHackMe"> </p>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nomannasirminhas&label=Profile%20views&color=0e75b6&style=flat" alt="nomannasirminhas" /> </p>
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nomannasirminhas" alt="nomannasirminhas" /></a> </p>
 <p align="left"> <a href="https://twitter.com/hack0grammer" target="blank"><img src="https://img.shields.io/twitter/follow/hack0grammer?logo=twitter&style=for-the-badge" alt="n_n_minhas" /></a> </p>
