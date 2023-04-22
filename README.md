@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm Noman Nasir Minhhas</h1>
 <h3 align="center">Full Stack Web3.0, Rust, Solidity Developer</h3>
+<p align="left"> <a href="https://tryhackme.com/badge/799882" alt="nomannasirminhas" /> </p>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nomannasirminhas&label=Profile%20views&color=0e75b6&style=flat" alt="nomannasirminhas" /> </p>
 
