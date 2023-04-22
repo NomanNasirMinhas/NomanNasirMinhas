@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nomannasirminhas" alt="nomannasirminhas" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/n_n_minhas" target="blank"><img src="https://img.shields.io/twitter/follow/n_n_minhas?logo=twitter&style=for-the-badge" alt="n_n_minhas" /></a> </p>
+<p align="left"> <a href="https://twitter.com/hack0grammer" target="blank"><img src="https://img.shields.io/twitter/follow/n_n_minhas?logo=twitter&style=for-the-badge" alt="n_n_minhas" /></a> </p>
 
 - 🔭 I’m currently working on [PIPE and HubCloud](https://www.tanglehub.eu)
 
