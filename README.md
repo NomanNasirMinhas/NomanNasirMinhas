@@ -1,22 +1,22 @@
 <h1 align="center">Hi 👋, I'm Noman Nasir Minhhas</h1>
-<h3 align="center">Full Stack Web3.0, Rust, Solidity Developer</h3>
+<h2 align="center">Malware Researcher | Exploit Developer</h2>
 
 <p align="center"> <img src="https://tryhackme-badges.s3.amazonaws.com/scorpion.tar.png" alt="TryHackMe"></p>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nomannasirminhas&label=Profile%20views&color=0e75b6&style=flat" alt="nomannasirminhas" /> </p>
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nomannasirminhas" alt="nomannasirminhas" /></a> </p>
 <p align="left"> <a href="https://twitter.com/hack0grammer" target="blank"><img src="https://img.shields.io/twitter/follow/hack0grammer?logo=twitter&style=for-the-badge" alt="n_n_minhas" /></a> </p>
 
-- 🔭 I’m currently working on [PIPE and HubCloud](https://www.tanglehub.eu)
+- 🔭 I’m currently working on [Malware Research and Threat Hunting](https://www.cytomate.net)
 
-- 🌱 I’m currently learning **Post-Quantum Cryptography, Network Forensics, Malware Analysis**
+- 🌱 I’m currently learning **Post-Quantum Cryptography, Quantum Computing, Network Forensics, Malware Analysis**
 
 - 👯 I’m looking to collaborate on **Open Source Cyber Security Tool**
 
-- 🤝 I’m looking for help with **Embedded and Low-Level Programming**
+- 🤝 I’m looking for help with **Low-Level System Programming**
 
 - 👨‍💻 All of my projects are available at [https://github.com/NomanNasirMinhas/](https://github.com/NomanNasirMinhas/)
 
-- 💬 Ask me about **Web3.0, Rust, Networks**
+- 💬 Ask me about **Web3.0, Rust, Networking, Cyber Security**
 
 - 📫 How to reach me **contact.nomanminhas@gmail.com**
 
