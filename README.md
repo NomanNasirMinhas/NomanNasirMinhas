@@ -55,6 +55,21 @@ Lab: VMware/Hyper-V • AD forest • ELK • MDE • Sysmon • Zeek
 
 ---
 
+## 🗂️ Recent Projects (2024–2026)
+
+| Repo | Lang | Description |
+|------|------|-------------|
+| [**Offensive-Rust**](https://github.com/NomanNasirMinhas/Offensive-Rust) | Rust | Offensive security toolkit: C2 server, local & remote shellcode injection, WinAPI MessageBox bindings |
+| [**CPP-Utils**](https://github.com/NomanNasirMinhas/CPP-Utils) | C++ | C++ utility library used for malware/offensive tooling development (MSVC) |
+| [**Offensive-Go**](https://github.com/NomanNasirMinhas/Offensive-Go) | Go | **GoShark** – Wails + Svelte desktop packet capture UI; **NetworkMonitor** passive listener |
+| [**ARP-Puker**](https://github.com/NomanNasirMinhas/ARP-Puker) | Rust | ARP-based MITM attacker – gratuitous ARP poisoning & packet interception |
+| [**Qiskit-Basic-Of-Quantum-Information**](https://github.com/NomanNasirMinhas/Qisikit-Basic-Of-Quantum-Information) | Python | Qiskit Jupyter notebooks: single-qubit & multi-qubit quantum information fundamentals |
+| [**Pentesting-Notes**](https://github.com/NomanNasirMinhas/Pentesting-Notes) | — | AD attack mindmap (Excalidraw), pentest cheatsheets, CherryTree structured notes |
+| [**Rust-Driver-Clone**](https://github.com/NomanNasirMinhas/Rust-Driver-Clone) | Rust | Windows kernel driver written in Rust (WDK) – EDR/AV internals research |
+| [**binary-to-shellcode**](https://github.com/NomanNasirMinhas/binary-to-shellcode) | — | Educational: convert a full PE binary to position-independent shellcode with encryption support |
+
+---
+
 ## 🧭 Research Focus
 - **Windows Internals & Evasion**: DLL unhooking, ETW/AMSI patching, section-remap loaders, thread hijack/APC, token/handle manipulation  
 - **Auth/AD Tradecraft**: NTLMv1/v2 capture (Inveigh/Responder), Hashcat cracking, BloodHound pathing, Impacket ops  
