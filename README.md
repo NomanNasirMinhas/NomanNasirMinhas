@@ -25,7 +25,7 @@ STATUS    : ACTIVE — CRTO ██████████░░░░ 78%
 
 <img src="https://img.shields.io/badge/RED_TEAM-ACTIVE-ff0000?style=for-the-badge&logo=target&logoColor=white"/>
 <img src="https://img.shields.io/badge/ADVERSARY_EMULATION-Cytomate-ff4500?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/CRTO-IN_PROGRESS-yellow?style=for-the-badge&logo=cobalt&logoColor=black"/>
+<img src="https://img.shields.io/badge/CRTO-CERTIFIED-ff4500?style=for-the-badge&logoColor=white"/>
 <img src="https://img.shields.io/badge/IEEE_PUBLISHED-Research-00aaff?style=for-the-badge&logo=ieee&logoColor=white"/>
 <br/>
 <img src="https://tryhackme-badges.s3.amazonaws.com/scorpion.tar.png" alt="TryHackMe" width="160"/>
@@ -63,17 +63,23 @@ STATUS    : ACTIVE — CRTO ██████████░░░░ 78%
 ```bash
 [noman@psiberus-lab ~]$ cat /var/log/active_ops.log
 
-[+] CRTO EXAM         — Multi-domain AD lab. Child→Parent trust attacks,
-                        Kerberos golden ticket forgery (ExtraSids/EA SID),
-                        forest trust pivoting via Cobalt Strike beacons
-[+] EDR EVASION R&D   — AMSI heap corruption (HAMSICONTEXT), patchless bypass,
-                        ETW patching, DLL call tracing via Frida
-[+] PSIBERUS PLATFORM — Rust+Go+Tauri adversary sim suite. MQTT/RabbitMQ C2
-                        backend, ELK/MDE telemetry, Cobalt Strike integration
-[+] PATENT INTEL      — USPTO App #18/530,422 CIP — algorithms, claims,
-                        prior art analysis for Cytomate threat intel platform
-[+] PQC RESEARCH      — Kyber/Dilithium protocol study, post-quantum
-                        crypto migration tooling for enterprise environments
+[+] ADVERSARY SIMULATION  — Full-scope red team engagements @ Cytomate.
+                            MITRE ATT&CK-mapped campaigns, purple team
+                            pipelines, ASL-driven scenario automation
+[+] KERNEL DRIVERS DEV    — Windows kernel driver research in Rust (WDK).
+                            EDR/AV internals, DKOM, callback manipulation,
+                            minifilter drivers, object/handle hooking
+[+] AD SECURITY RESEARCH  — Cross-domain/forest trust attack chains,
+                            Kerberos delegation abuse, ExtraSids golden
+                            ticket forgery, DCSync, BloodHound pathing
+[+] QUANTUM CYBERSECURITY — Post-quantum cryptography migration tooling,
+                            Kyber-768 / Dilithium3 protocol integration,
+                            quantum-safe secure channel design research
+[+] EDR EVASION R&D       — AMSI heap corruption (HAMSICONTEXT), ETW
+                            patching, patchless syscall techniques, DLL
+                            call tracing via Frida, hook evasion research
+[+] PSIBERUS PLATFORM     — Rust+Go+Tauri autonomous adversary sim suite.
+                            MQTT/RabbitMQ C2 backend, ELK/MDE telemetry
 ```
 
 ---
@@ -233,7 +239,7 @@ STATUS: [PRIVATE ALPHA] — Founder: Psiberus LLC, Doha QA
 <a href="https://www.hackthebox.com/"><img src="https://img.shields.io/badge/Hack_The_Box-Active-9fef00?style=for-the-badge&logo=hackthebox&logoColor=9fef00&labelColor=0d0d0d"/></a>
 <a href="https://tryhackme.com/"><img src="https://img.shields.io/badge/TryHackMe-scorpion.tar-red?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=0d0d0d"/></a>
 <a href="https://www.credly.com/"><img src="https://img.shields.io/badge/Credly-Certified-ff6b00?style=for-the-badge&logo=credly&logoColor=white&labelColor=0d0d0d"/></a>
-<img src="https://img.shields.io/badge/CRTO-RTO_(In_Progress)-yellow?style=for-the-badge&labelColor=0d0d0d"/>
+<a href="https://www.credly.com/"><img src="https://img.shields.io/badge/CRTO-Red_Team_Operator-ff4500?style=for-the-badge&logoColor=white&labelColor=0d0d0d"/></a>
 <img src="https://img.shields.io/badge/MS_CyberSecurity-Air_University-00aaff?style=for-the-badge&labelColor=0d0d0d"/>
 
 </div>
