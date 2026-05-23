@@ -230,12 +230,12 @@ Stars           B     17pt    Middle Star
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=nomannasirminhas&show_icons=true&count_private=true&hide_border=true&bg_color=0d0d0d&title_color=ff4500&icon_color=00ffcc&text_color=c9d1d9&ring_color=ff4500" alt="GitHub Stats" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nomannasirminhas&hide=cmake&langs_count=6&hide_border=true&bg_color=0d0d0d&title_color=ff4500&text_color=c9d1d9&layout=compact" alt="Top Languages" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=nomannasirminhas&show_icons=true&count_private=true&hide_border=true&bg_color=0d0d0d&title_color=ff4500&icon_color=00ffcc&text_color=c9d1d9" alt="GitHub Stats" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nomannasirminhas&hide=cmake&langs_count=6&hide_border=true&bg_color=0d0d0d&title_color=ff4500&text_color=c9d1d9&layout=compact&cache_seconds=1800" alt="Top Languages" width="49%"/>
 
 <img src="https://streak-stats.demolab.com/?user=nomannasirminhas&theme=dark&hide_border=true&background=0d0d0d&ring=ff4500&fire=ff4500&currStreakLabel=00ffcc&sideLabels=00ffcc&dates=888888&stroke=ff4500" alt="Streak" width="60%"/>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=nomannasirminhas&theme=darkhub&no-frame=true&row=1&column=6&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://trophy.benkou.dev/?username=nomannasirminhas&theme=darkhub&no-frame=true&row=1&column=6&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
