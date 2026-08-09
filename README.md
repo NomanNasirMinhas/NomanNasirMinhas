@@ -1,12 +1,12 @@
 <div align="center">
 
-```
-███████╗██╗  ██╗███████╗██╗     ██████╗  ██████╗ ███╗   ██╗
-██╔════╝██║  ██║██╔════╝██║     ██╔══██╗██╔═══██╗████╗  ██║
-███████╗███████║█████╗  ██║     ██║  ██║██║   ██║██╔██╗ ██║
-╚════██║██╔══██║██╔══╝  ██║     ██║  ██║██║   ██║██║╚██╗██║
-███████║██║  ██║███████╗███████╗██████╔╝╚██████╔╝██║ ╚████║
-╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═════╝  ╚═════╝ ╚═╝  ╚═══╝
+```ansi
+[38;2;199;125;255m███████╗██╗  ██╗███████╗██╗     ██████╗  ██████╗ ███╗   ██╗[0m
+[38;2;157;78;221m██╔════╝██║  ██║██╔════╝██║     ██╔══██╗██╔═══██╗████╗  ██║[0m
+[38;2;123;44;191m███████╗███████║█████╗  ██║     ██║  ██║██║   ██║██╔██╗ ██║[0m
+[38;2;72;149;239m╚════██║██╔══██║██╔══╝  ██║     ██║  ██║██║   ██║██║╚██╗██║[0m
+[38;2;0;180;216m███████║██║  ██║███████╗███████╗██████╔╝╚██████╔╝██║ ╚████║[0m
+[38;2;72;202;228m╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═════╝  ╚═════╝ ╚═╝  ╚═══╝[0m
 ```
 
 `Break the abstraction. Emulate the adversary. Harden what's left.`
@@ -86,7 +86,7 @@
                             MITRE ATT&CK-mapped campaigns, purple team
                             pipelines, ASL-driven scenario automation
 [38;5;202m[+][0m [38;5;44mKERNEL DRIVERS DEV    [0m— Windows kernel driver research in Rust (WDK).
-                            EDR/AV internals, DKOM, callback manipulation,
+                            EDR/AV internals, DKOM, callback manipulation
                             minifilter drivers, object/handle hooking
 [38;5;202m[+][0m [38;5;44mAD SECURITY RESEARCH  [0m— Cross-domain / forest trust attack chains,
                             Kerberos delegation abuse, ExtraSids golden
@@ -227,9 +227,9 @@ Zig          | ███████░░░░░ | Shellcode loaders, cross-c
 
 <div align="center">
 
-<img src="https://github-stats-extended.vercel.app/api?username=nomannasirminhas&show_icons=true&count_private=true&hide_border=true&bg_color=0d0d0d&title_color=ff4500&icon_color=00ffcc&text_color=c9d1d9&cache_seconds=86400" alt="GitHub Stats" width="49%"/>
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=nomannasirminhas&hide=cmake&langs_count=6&hide_border=true&bg_color=0d0d0d&title_color=ff4500&text_color=c9d1d9&layout=compact&cache_seconds=86400" alt="Top Languages" width="49%"/>
-<img src="https://streak-stats.demolab.com/?user=nomannasirminhas&theme=dark&hide_border=true&background=0d0d0d&ring=ff4500&fire=ff4500&currStreakLabel=00ffcc&sideLabels=00ffcc&dates=888888&stroke=ff4500" alt="Streak" width="60%"/>
+<img src="https://github-stats-extended.vercel.app/api?username=nomannasirminhas&show_icons=true&count_private=true&include_all_commits=true&rank_icon=github&show=reviews,prs_merged_percentage&custom_title=Sheldon+//+OFFSEC+Stats&number_format=short&title_color=c77dff&icon_color=48cae4&text_color=d7c6ff&ring_color=48cae4&border_color=9d4edd&border_radius=10&bg_color=135,17082e,0a1826&cache_seconds=21600" alt="GitHub Stats" width="49%"/>
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=nomannasirminhas&langs_count=8&layout=compact&hide=cmake&custom_title=Weapons+of+Choice&title_color=48cae4&text_color=d7c6ff&border_color=00b4d8&border_radius=10&bg_color=135,0a1826,17082e&cache_seconds=21600" alt="Top Languages" width="49%"/>
+<img src="https://streak-stats.demolab.com/?user=nomannasirminhas&theme=dark&hide_border=true&background=0a1826&ring=9d4edd&fire=c77dff&currStreakLabel=48cae4&sideLabels=48cae4&dates=8a7bb0&stroke=9d4edd" alt="Streak" width="60%"/>
 
 [![trophy](https://trophy.benkou.dev/?username=nomannasirminhas&theme=darkhub&no-frame=true&row=1&column=6&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
 
@@ -288,13 +288,13 @@ Zig          | ███████░░░░░ | Shellcode loaders, cross-c
 
 <div align="center">
 
-```
-██████╗ ███████╗███████╗██████╗     ██╗███╗   ██╗    ███████╗██╗██╗     ███████╗███╗   ██╗ ██████╗███████╗
-██╔══██╗██╔════╝██╔════╝██╔══██╗    ██║████╗  ██║    ██╔════╝██║██║     ██╔════╝████╗  ██║██╔════╝██╔════╝
-██║  ██║█████╗  █████╗  ██████╔╝    ██║██╔██╗ ██║    ███████╗██║██║     █████╗  ██╔██╗ ██║██║     █████╗
-██║  ██║██╔══╝  ██╔══╝  ██╔═══╝     ██║██║╚██╗██║    ╚════██║██║██║     ██╔══╝  ██║╚██╗██║██║     ██╔══╝
-██████╔╝███████╗███████╗██║         ██║██║ ╚████║    ███████║██║███████╗███████╗██║ ╚████║╚██████╗███████╗
-╚═════╝ ╚══════╝╚══════╝╚═╝         ╚═╝╚═╝  ╚═══╝    ╚══════╝╚═╝╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝╚══════╝
+```ansi
+[38;2;72;202;228m██████╗ ███████╗███████╗██████╗     ██╗███╗   ██╗    ███████╗██╗██╗     ███████╗███╗   ██╗ ██████╗███████╗[0m
+[38;2;0;180;216m██╔══██╗██╔════╝██╔════╝██╔══██╗    ██║████╗  ██║    ██╔════╝██║██║     ██╔════╝████╗  ██║██╔════╝██╔════╝[0m
+[38;2;72;149;239m██║  ██║█████╗  █████╗  ██████╔╝    ██║██╔██╗ ██║    ███████╗██║██║     █████╗  ██╔██╗ ██║██║     █████╗[0m
+[38;2;123;44;191m██║  ██║██╔══╝  ██╔══╝  ██╔═══╝     ██║██║╚██╗██║    ╚════██║██║██║     ██╔══╝  ██║╚██╗██║██║     ██╔══╝[0m
+[38;2;157;78;221m██████╔╝███████╗███████╗██║         ██║██║ ╚████║    ███████║██║███████╗███████╗██║ ╚████║╚██████╗███████╗[0m
+[38;2;199;125;255m╚═════╝ ╚══════╝╚══════╝╚═╝         ╚═╝╚═╝  ╚═══╝    ╚══════╝╚═╝╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝╚══════╝[0m
 ```
 
 > *"The best defense is understanding how the offense thinks."*
