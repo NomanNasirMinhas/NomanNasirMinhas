@@ -9,8 +9,8 @@
 ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═════╝  ╚═════╝ ╚═╝  ╚═══╝
 ```
 
-`I break Windows in kernel space, forge Kerberos tickets across forests, and`
-`in the other half of my brain I do quantum mechanics and teach physics.`
+`Break the abstraction. Emulate the adversary. Harden what's left.`
+`Kernel-space when it has to be · forests when they let me in.`
 
 </div>
 
@@ -18,23 +18,21 @@
 
 ### `boot sequence`
 
-```bash
-[noman@psiberus-lab ~]$ ./whoami --verbose
-[*] resolving operator identity ......................... OK
-[*] loading tradecraft modules ......................... OK
-[*] mounting quantum research partition ................ OK
-[*] warning: operator runs offensive R&D and physics papers in parallel
+```ansi
+[38;5;46mnoman@psiberus-lab[0m:[38;5;44m~[0m$ ./whoami --verbose
+[38;5;244m[*] resolving operator identity ................[0m [38;5;46mOK[0m
+[38;5;244m[*] loading evasion + injection modules ........[0m [38;5;46mOK[0m
+[38;5;244m[*] mounting AD attack + kernel toolkits .......[0m [38;5;46mOK[0m
 
-uid=0(root) gid=0(root) groups=0(root),1337(red-team),31337(elite),42(physicist)
-Linux psiberus-lab 6.x.x-hardened #1 SMP PREEMPT x86_64 GNU/Linux
+[38;5;44muid[0m=0([38;5;202mroot[0m) [38;5;44mgid[0m=0([38;5;202mroot[0m) groups=0(root),1337([38;5;202mred-team[0m),31337([38;5;220melite[0m)
+[38;5;244mLinux psiberus-lab 6.x.x-hardened #1 SMP PREEMPT x86_64 GNU/Linux[0m
 
-OPERATOR  : Noman Nasir Minhas          ALIAS : Sheldon / malicious_dll
-ROLE      : Security Engineer — Offensive Ops & Adversary Emulation
-ORG       : Cytomate Solutions & Services — Doha, Qatar 🇶🇦
-FOUNDER   : Psiberus LLC — Autonomous Adversary Simulation Platform
-EDUCATION : MS Cybersecurity — Air University · IEEE Published Researcher
-DUAL-CORE : Red Team Tradecraft  ||  Foundational Physics & QIS
-STATUS    : ACTIVE — CRTO ✔  CRTL ✔  [Red Team Operator + Lead]
+[38;5;44mOPERATOR [0m : [1mNoman Nasir Minhas[0m          [38;5;44mALIAS[0m : Sheldon / malicious_dll
+[38;5;44mROLE     [0m : Security Engineer — Offensive Ops & Adversary Emulation
+[38;5;44mORG      [0m : Cytomate Solutions & Services — Doha, Qatar 🇶🇦
+[38;5;44mFOUNDER  [0m : Psiberus LLC — Autonomous Adversary Simulation Platform
+[38;5;44mEDUCATION[0m : MS Cybersecurity — Air University · IEEE Published
+[38;5;44mSTATUS   [0m : [38;5;46mACTIVE[0m — CRTO [38;5;46m✔[0m  CRTL [38;5;46m✔[0m  [Red Team Operator + Lead]
 ```
 
 <div align="center">
@@ -58,49 +56,48 @@ STATUS    : ACTIVE — CRTO ✔  CRTL ✔  [Red Team Operator + Lead]
 ## ☠️ THREAT ACTOR PROFILE
 
 ```
-╔══════════════════════════════════════════════════════════════════╗
-║  CLASSIFICATION: [TOP SECRET // OFFSEC // RED CELL]              ║
-╠══════════════════════════════════════════════════════════════════╣
-║  OPERATOR  : Noman Nasir Minhas                                  ║
-║  HANDLE    : Sheldon / malicious_dll                            ║
-║  MISSION   : Break. Emulate. Detect. Harden. Repeat.           ║
-║  THEATER   : Windows Internals · AD · EDR · Post-Exploitation  ║
-║  WEAPONS   : Rust · Go · C/C++ · C# · Python · ASM            ║
-║  LAB ENV   : VMware/Hyper-V · AD Forest · ELK · MDE · Sysmon  ║
-║  INTEL ORG : Cytomate Solutions — Adversary Emulation Division ║
-║  FOUNDER   : Psiberus LLC — Autonomous Adversary Sim Platform  ║
-║  CERTS     : CRTO (Operator) + CRTL (Lead) — Zero-Point Sec    ║
-║  SIDE-CORE : Quantum information · QED · foundational physics  ║
-╚══════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════════════╗
+║ CLASSIFICATION: [TOP SECRET // OFFSEC // RED CELL]            ║
+╠═══════════════════════════════════════════════════════════════╣
+║ OPERATOR  : Noman Nasir Minhas                                ║
+║ HANDLE    : Sheldon / malicious_dll                           ║
+║ MISSION   : Break. Emulate. Detect. Harden. Repeat.           ║
+║ THEATER   : Windows Internals · AD · EDR · Post-Exploitation  ║
+║ WEAPONS   : Rust · Go · C/C++ · C# · Python · ASM             ║
+║ LAB ENV   : VMware/Hyper-V · AD Forest · ELK · MDE · Sysmon   ║
+║ INTEL ORG : Cytomate Solutions — Adversary Emulation Division ║
+║ FOUNDER   : Psiberus LLC — Autonomous Adversary Sim Platform  ║
+║ CERTS     : CRTO (Operator) + CRTL (Lead) — Zero-Point Sec    ║
+║ OFF-HOURS : quantum computing + physics — self-study, for fun ║
+╚═══════════════════════════════════════════════════════════════╝
 ```
 
-> Most operators stop at the exploit. I keep going — down into kernel objects
-> and callback tables, and sideways into Hilbert spaces and photon localization.
-> The overlap isn't an accident: both are about seeing the machine underneath
-> the abstraction everyone else takes for granted.
+> Most operators stop at the exploit. I keep going — down into kernel objects,
+> callback tables, and the telemetry that's supposed to catch me. Break it,
+> emulate it, then help the blue side see it coming.
 
 ---
 
 ## 🎯 CURRENT OPS
 
-```bash
-[noman@psiberus-lab ~]$ cat /var/log/active_ops.log
-[+] ADVERSARY SIMULATION  — Full-scope red team engagements @ Cytomate.
+```ansi
+[38;5;46mnoman@psiberus-lab[0m:~$ cat /var/log/active_ops.log
+[38;5;202m[+][0m [38;5;44mADVERSARY SIMULATION  [0m— Full-scope red team engagements @ Cytomate.
                             MITRE ATT&CK-mapped campaigns, purple team
                             pipelines, ASL-driven scenario automation
-[+] KERNEL DRIVERS DEV    — Windows kernel driver research in Rust (WDK).
+[38;5;202m[+][0m [38;5;44mKERNEL DRIVERS DEV    [0m— Windows kernel driver research in Rust (WDK).
                             EDR/AV internals, DKOM, callback manipulation,
                             minifilter drivers, object/handle hooking
-[+] AD SECURITY RESEARCH  — Cross-domain/forest trust attack chains,
+[38;5;202m[+][0m [38;5;44mAD SECURITY RESEARCH  [0m— Cross-domain / forest trust attack chains,
                             Kerberos delegation abuse, ExtraSids golden
                             ticket forgery, DCSync, BloodHound pathing
-[+] QUANTUM CYBERSECURITY — Post-quantum cryptography migration tooling,
-                            Kyber-768 / Dilithium3 protocol integration,
-                            quantum-safe secure channel design research
-[+] EDR EVASION R&D       — AMSI heap corruption (HAMSICONTEXT), ETW
+[38;5;202m[+][0m [38;5;44mPOST-QUANTUM CRYPTO   [0m— Kyber-768 / Dilithium3 protocol integration,
+                            quantum-safe secure channel design + PQC
+                            migration tooling for offensive/defensive use
+[38;5;202m[+][0m [38;5;44mEDR EVASION R&D       [0m— AMSI heap corruption (HAMSICONTEXT), ETW
                             patching, patchless syscall techniques, DLL
                             call tracing via Frida, hook evasion research
-[+] PSIBERUS PLATFORM     — Rust+Go+Tauri autonomous adversary sim suite.
+[38;5;202m[+][0m [38;5;44mPSIBERUS PLATFORM     [0m— Rust+Go+Tauri autonomous adversary sim suite.
                             MQTT/RabbitMQ C2 backend, ELK/MDE telemetry
 ```
 
@@ -166,58 +163,28 @@ Zig          | ███████░░░░░ | Shellcode loaders, cross-c
 | **Vuln Scanning** | OpenSCAP, Lynis, CVE Binary Tool (air-gapped) |
 | **EDR/SIEM** | MDE, Sysmon, ELK Stack, custom ETW consumers |
 | **Crypto** | Kyber/Dilithium (PQC), AES-256 CTR/CBC, C2PA |
-| **Quantum** | Qiskit, QuTiP, Stim — QIS + circuit simulation |
 
 </details>
-
----
-
-## 🧬 THE UNCOMMON STACK
-
-```
-[noman@psiberus-lab ~]$ ./what_makes_this_profile_different.sh
-
-  Most red teamers ──────────────► exploit → report → repeat
-  Most physicists  ──────────────► theory → paper → repeat
-
-  This operator sits on the intersection:
-
-     OFFENSIVE SECURITY  ◄──────────►  FOUNDATIONAL PHYSICS
-     ├─ kernel drivers                 ├─ quantum information (QIS)
-     ├─ EDR/AMSI/ETW internals         ├─ QED / photon localization
-     ├─ AD forest attack chains        ├─ pulsars / quantum gravity
-     └─ adversary emulation            └─ science communication
-
-            └────────── converge on ──────────┘
-                POST-QUANTUM SECURITY R&D
-           (Kyber-768 · Dilithium3 · secure channels)
-```
-
-> I ship offensive tooling *and* author physics preprints under my own name.
-> The quantum work isn't a hobby bolted onto the résumé — it's why the
-> post-quantum crypto research on the security side actually holds up.
 
 ---
 
 ## 🔬 RESEARCH DOMAINS
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│  DOMAIN                  CURRENT FOCUS                           │
-├─────────────────────────────────────────────────────────────────┤
-│  Windows Evasion         AMSI/ETW internals, heap corruption,   │
-│                          patchless bypasses, call stack spoof    │
-│  Active Directory        Cross-domain/forest trust attacks,      │
-│                          ExtraSids golden ticket, Kerberos       │
-│  EDR Research            Telemetry blind spots, hook evasion,    │
-│                          MDE signal analysis, DLL tracing        │
-│  Post-Quantum Crypto     Kyber-768, Dilithium3, secure channel   │
-│                          design, PQC migration tooling           │
-│  Adversary Emulation     MITRE ATT&CK mapping, ASL framework,    │
-│                          automated purple team pipelines         │
-│  Quantum Information      Qubits, Hilbert spaces, QED, photon    │
-│                          localization — published preprints      │
-└─────────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────┐
+│ DOMAIN                  CURRENT FOCUS                         │
+├───────────────────────────────────────────────────────────────┤
+│ Windows Evasion         AMSI/ETW internals, heap corruption,  │
+│                         patchless bypasses, call-stack spoof  │
+│ Active Directory        Cross-domain / forest trust attacks,  │
+│                         ExtraSids golden ticket, Kerberos     │
+│ EDR Research            Telemetry blind spots, hook evasion,  │
+│                         MDE signal analysis, DLL tracing      │
+│ Post-Quantum Crypto     Kyber-768, Dilithium3, secure-channel │
+│                         design, PQC migration tooling         │
+│ Adversary Emulation     MITRE ATT&CK mapping, ASL framework,  │
+│                         automated purple-team pipelines       │
+└───────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -233,7 +200,7 @@ Zig          | ███████░░░░░ | Shellcode loaders, cross-c
 | [**binary-to-shellcode**](https://github.com/NomanNasirMinhas/binary-to-shellcode) | 🔧 Multi | PE → PIC shellcode conversion with encryption support |
 | [**CPP-Utils**](https://github.com/NomanNasirMinhas/CPP-Utils) | ⚙️ C++ | Utility library for malware/offensive tooling (MSVC) |
 | [**Pentesting-Notes**](https://github.com/NomanNasirMinhas/Pentesting-Notes) | 📝 — | AD attack mindmaps · pentest cheatsheets · CherryTree notes |
-| [**Qiskit-Quantum**](https://github.com/NomanNasirMinhas/Qisikit-Basic-Of-Quantum-Information) | 🐍 Python | Qiskit notebooks — single/multi-qubit quantum information |
+| [**Qiskit-Quantum**](https://github.com/NomanNasirMinhas/Qisikit-Basic-Of-Quantum-Information) | 🐍 Python | Qiskit notebooks — quantum computing (personal study) |
 
 > **Private / WIP**: Psiberus agent (Rust) · Zig shellcode loader · Go fork-chain injector · Rust fluctuation implant · ASL JSON generator · sandbox/VM detection toolkit
 
@@ -241,17 +208,17 @@ Zig          | ███████░░░░░ | Shellcode loaders, cross-c
 
 ## 🏗️ PSIBERUS — AUTONOMOUS ADVERSARY SIM PLATFORM
 
-```
-[psiberus@lab ~]$ cat /opt/psiberus/README
-PSIBERUS — Autonomous AI-Driven Penetration Testing Platform
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-STACK:
-  Agent       → Rust (evasion-first, modular payload)
-  Operator UI → Tauri + Svelte (desktop)
-  C2 Backend  → Go microservices, MQTT/RabbitMQ transport
-  Telemetry   → ELK + MDE + Sysmon correlation engine
-  Emulation   → MITRE ATT&CK mapped, ASL-native scenario engine
-STATUS: [PRIVATE ALPHA] — Founder: Psiberus LLC, Doha QA
+```ansi
+[38;5;46mpsiberus@lab[0m:~$ cat /opt/psiberus/README
+[38;5;202mPSIBERUS[0m — Autonomous AI-Driven Penetration Testing Platform
+[38;5;244m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+[38;5;44mSTACK:[0m
+  [38;5;44mAgent      [0m → Rust (evasion-first, modular payload)
+  [38;5;44mOperator UI[0m → Tauri + Svelte (desktop)
+  [38;5;44mC2 Backend [0m → Go microservices, MQTT/RabbitMQ transport
+  [38;5;44mTelemetry  [0m → ELK + MDE + Sysmon correlation engine
+  [38;5;44mEmulation  [0m → MITRE ATT&CK mapped, ASL-native scenario engine
+[38;5;44mSTATUS:[0m [38;5;202m[PRIVATE ALPHA][0m — Founder: Psiberus LLC, Doha QA
 ```
 
 ---
@@ -260,8 +227,8 @@ STATUS: [PRIVATE ALPHA] — Founder: Psiberus LLC, Doha QA
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=nomannasirminhas&show_icons=true&count_private=true&hide_border=true&bg_color=0d0d0d&title_color=ff4500&icon_color=00ffcc&text_color=c9d1d9" alt="GitHub Stats" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nomannasirminhas&hide=cmake&langs_count=6&hide_border=true&bg_color=0d0d0d&title_color=ff4500&text_color=c9d1d9&layout=compact&cache_seconds=1800" alt="Top Languages" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=nomannasirminhas&show_icons=true&count_private=true&hide_border=true&bg_color=0d0d0d&title_color=ff4500&icon_color=00ffcc&text_color=c9d1d9&cache_seconds=86400" alt="GitHub Stats" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nomannasirminhas&hide=cmake&langs_count=6&hide_border=true&bg_color=0d0d0d&title_color=ff4500&text_color=c9d1d9&layout=compact&cache_seconds=86400" alt="Top Languages" width="49%"/>
 <img src="https://streak-stats.demolab.com/?user=nomannasirminhas&theme=dark&hide_border=true&background=0d0d0d&ring=ff4500&fire=ff4500&currStreakLabel=00ffcc&sideLabels=00ffcc&dates=888888&stroke=ff4500" alt="Streak" width="60%"/>
 
 [![trophy](https://trophy.benkou.dev/?username=nomannasirminhas&theme=darkhub&no-frame=true&row=1&column=6&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
@@ -274,8 +241,7 @@ STATUS: [PRIVATE ALPHA] — Founder: Psiberus LLC, Doha QA
 
 - 📡 [Medium @malicious-dll](http://malicious-dll.medium.com/) — Loader design, ETW/AMSI internals, token manipulation, memory forensics, AD attack/defense
 - 🔬 **IEEE Research** — Published peer-reviewed offensive security research
-- ⚛️ **Physics Preprints** — Independent papers on quantum information, QED, and foundational physics under my own name
-- 🧠 **Instagram @science_with_noman** — Physics, quantum computing, space, and mathematics science communication
+- 🧠 **Instagram** — Casual science communication on the side (physics, quantum, space) — a hobby, not a day job
 
 ---
 
@@ -297,18 +263,16 @@ STATUS: [PRIVATE ALPHA] — Founder: Psiberus LLC, Doha QA
 
 ## 📡 ESTABLISH CONNECTION
 
-```bash
-[noman@psiberus-lab ~]$ netstat -contact
-PROTOCOL   ENDPOINT                              STATUS
-─────────────────────────────────────────────────────────────
-EMAIL    → contact.nomanminhas@gmail.com         OPEN
-TWITTER  → @malicious_dll                         LISTENING
-LINKEDIN → /in/noman-nasir-minhas                 AUTHENTICATED
-MEDIUM   → @malicious-dll                          PUBLISHING
-HUB      → beacons.ai/malicious.dll                ACTIVE
-GITHUB   → /NomanNasirMinhas                        PUBLIC
-TOPICS: GoLang · Rust · C2 Dev · EDR Evasion · AD Attacks
-        Quantum Computing · Exploit Dev · Red/Purple Ops
+```ansi
+[38;5;46mnoman@psiberus-lab[0m:~$ netstat --contact
+[38;5;244mPROTOCOL   ENDPOINT                               STATUS[0m
+[38;5;44mEMAIL    [0m→ contact.nomanminhas@gmail.com         [38;5;46mOPEN[0m
+[38;5;44mTWITTER  [0m→ @malicious_dll                        [38;5;44mLISTENING[0m
+[38;5;44mLINKEDIN [0m→ /in/noman-nasir-minhas                [38;5;44mAUTHENTICATED[0m
+[38;5;44mMEDIUM   [0m→ @malicious-dll                        [38;5;202mPUBLISHING[0m
+[38;5;44mGITHUB   [0m→ /NomanNasirMinhas                     [38;5;46mPUBLIC[0m
+[38;5;244mTOPICS: GoLang · Rust · C2 Dev · EDR Evasion · AD Attacks
+        Post-Quantum Crypto · Exploit Dev · Red/Purple Ops[0m
 ```
 
 <div align="center">
@@ -333,10 +297,9 @@ TOPICS: GoLang · Rust · C2 Dev · EDR Evasion · AD Attacks
 ╚═════╝ ╚══════╝╚══════╝╚═╝         ╚═╝╚═╝  ╚═══╝    ╚══════╝╚═╝╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝╚══════╝
 ```
 
-> *"The best defense is understanding how the offense thinks —*
-> *and the best offense is understanding the machine one layer deeper than anyone expects."*
+> *"The best defense is understanding how the offense thinks."*
 
-**🦂 Malware Researcher · Exploit Developer · Kernel Tinkerer · Red/Purple Team Lead · Physicist-at-large**
+**🦂 Malware Researcher · Exploit Developer · Kernel Tinkerer · Red/Purple Team Lead**
 
 ```
 All offensive research conducted in controlled lab environments for ethical R&D and defense purposes.
