@@ -1,13 +1,6 @@
 <div align="center">
 
-```ansi
-[38;2;199;125;255m███████╗██╗  ██╗███████╗██╗     ██████╗  ██████╗ ███╗   ██╗[0m
-[38;2;157;78;221m██╔════╝██║  ██║██╔════╝██║     ██╔══██╗██╔═══██╗████╗  ██║[0m
-[38;2;123;44;191m███████╗███████║█████╗  ██║     ██║  ██║██║   ██║██╔██╗ ██║[0m
-[38;2;72;149;239m╚════██║██╔══██║██╔══╝  ██║     ██║  ██║██║   ██║██║╚██╗██║[0m
-[38;2;0;180;216m███████║██║  ██║███████╗███████╗██████╔╝╚██████╔╝██║ ╚████║[0m
-[38;2;72;202;228m╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═════╝  ╚═════╝ ╚═╝  ╚═══╝[0m
-```
+<img src="assets/shelldone-banner.svg" alt="SHELLDONE" width="620"/>
 
 `Break the abstraction. Emulate the adversary. Harden what's left.`
 `Kernel-space when it has to be · forests when they let me in.`
@@ -18,21 +11,21 @@
 
 ### `boot sequence`
 
-```ansi
-[38;5;46mnoman@psiberus-lab[0m:[38;5;44m~[0m$ ./whoami --verbose
-[38;5;244m[*] resolving operator identity ................[0m [38;5;46mOK[0m
-[38;5;244m[*] loading evasion + injection modules ........[0m [38;5;46mOK[0m
-[38;5;244m[*] mounting AD attack + kernel toolkits .......[0m [38;5;46mOK[0m
+```
+noman@psiberus-lab:~$ ./whoami --verbose
+[*] resolving operator identity ................ OK
+[*] loading evasion + injection modules ........ OK
+[*] mounting AD attack + kernel toolkits ....... OK
 
-[38;5;44muid[0m=0([38;5;202mroot[0m) [38;5;44mgid[0m=0([38;5;202mroot[0m) groups=0(root),1337([38;5;202mred-team[0m),31337([38;5;220melite[0m)
-[38;5;244mLinux psiberus-lab 6.x.x-hardened #1 SMP PREEMPT x86_64 GNU/Linux[0m
+uid=0(root) gid=0(root) groups=0(root),1337(red-team),31337(elite)
+Linux psiberus-lab 6.x.x-hardened #1 SMP PREEMPT x86_64 GNU/Linux
 
-[38;5;44mOPERATOR [0m : [1mNoman Nasir Minhas[0m          [38;5;44mALIAS[0m : Sheldon / malicious_dll
-[38;5;44mROLE     [0m : Security Engineer — Offensive Ops & Adversary Emulation
-[38;5;44mORG      [0m : Cytomate Solutions & Services — Doha, Qatar 🇶🇦
-[38;5;44mFOUNDER  [0m : Psiberus LLC — Autonomous Adversary Simulation Platform
-[38;5;44mEDUCATION[0m : MS Cybersecurity — Air University · IEEE Published
-[38;5;44mSTATUS   [0m : [38;5;46mACTIVE[0m — CRTO [38;5;46m✔[0m  CRTL [38;5;46m✔[0m  [Red Team Operator + Lead]
+OPERATOR  : Noman Nasir Minhas          ALIAS : Sheldon / malicious_dll
+ROLE      : Security Engineer — Offensive Ops & Adversary Emulation
+ORG       : Cytomate Solutions & Services — Doha, Qatar
+FOUNDER   : Psiberus LLC — Autonomous Adversary Simulation Platform
+EDUCATION : MS Cybersecurity — Air University · IEEE Published
+STATUS    : ACTIVE — CRTO ✔  CRTL ✔  [Red Team Operator + Lead]
 ```
 
 <div align="center">
@@ -80,24 +73,24 @@
 
 ## 🎯 CURRENT OPS
 
-```ansi
-[38;5;46mnoman@psiberus-lab[0m:~$ cat /var/log/active_ops.log
-[38;5;202m[+][0m [38;5;44mADVERSARY SIMULATION  [0m— Full-scope red team engagements @ Cytomate.
+```
+noman@psiberus-lab:~$ cat /var/log/active_ops.log
+[+] ADVERSARY SIMULATION  — Full-scope red team engagements @ Cytomate.
                             MITRE ATT&CK-mapped campaigns, purple team
                             pipelines, ASL-driven scenario automation
-[38;5;202m[+][0m [38;5;44mKERNEL DRIVERS DEV    [0m— Windows kernel driver research in Rust (WDK).
+[+] KERNEL DRIVERS DEV    — Windows kernel driver research in Rust (WDK).
                             EDR/AV internals, DKOM, callback manipulation
                             minifilter drivers, object/handle hooking
-[38;5;202m[+][0m [38;5;44mAD SECURITY RESEARCH  [0m— Cross-domain / forest trust attack chains,
+[+] AD SECURITY RESEARCH  — Cross-domain / forest trust attack chains,
                             Kerberos delegation abuse, ExtraSids golden
                             ticket forgery, DCSync, BloodHound pathing
-[38;5;202m[+][0m [38;5;44mPOST-QUANTUM CRYPTO   [0m— Kyber-768 / Dilithium3 protocol integration,
+[+] POST-QUANTUM CRYPTO   — Kyber-768 / Dilithium3 protocol integration,
                             quantum-safe secure channel design + PQC
                             migration tooling for offensive/defensive use
-[38;5;202m[+][0m [38;5;44mEDR EVASION R&D       [0m— AMSI heap corruption (HAMSICONTEXT), ETW
+[+] EDR EVASION R&D       — AMSI heap corruption (HAMSICONTEXT), ETW
                             patching, patchless syscall techniques, DLL
                             call tracing via Frida, hook evasion research
-[38;5;202m[+][0m [38;5;44mPSIBERUS PLATFORM     [0m— Rust+Go+Tauri autonomous adversary sim suite.
+[+] PSIBERUS PLATFORM     — Rust+Go+Tauri autonomous adversary sim suite.
                             MQTT/RabbitMQ C2 backend, ELK/MDE telemetry
 ```
 
@@ -208,17 +201,17 @@ Zig          | ███████░░░░░ | Shellcode loaders, cross-c
 
 ## 🏗️ PSIBERUS — AUTONOMOUS ADVERSARY SIM PLATFORM
 
-```ansi
-[38;5;46mpsiberus@lab[0m:~$ cat /opt/psiberus/README
-[38;5;202mPSIBERUS[0m — Autonomous AI-Driven Penetration Testing Platform
-[38;5;244m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
-[38;5;44mSTACK:[0m
-  [38;5;44mAgent      [0m → Rust (evasion-first, modular payload)
-  [38;5;44mOperator UI[0m → Tauri + Svelte (desktop)
-  [38;5;44mC2 Backend [0m → Go microservices, MQTT/RabbitMQ transport
-  [38;5;44mTelemetry  [0m → ELK + MDE + Sysmon correlation engine
-  [38;5;44mEmulation  [0m → MITRE ATT&CK mapped, ASL-native scenario engine
-[38;5;44mSTATUS:[0m [38;5;202m[PRIVATE ALPHA][0m — Founder: Psiberus LLC, Doha QA
+```
+psiberus@lab:~$ cat /opt/psiberus/README
+PSIBERUS — Autonomous AI-Driven Penetration Testing Platform
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STACK:
+  Agent       → Rust (evasion-first, modular payload)
+  Operator UI → Tauri + Svelte (desktop)
+  C2 Backend  → Go microservices, MQTT/RabbitMQ transport
+  Telemetry   → ELK + MDE + Sysmon correlation engine
+  Emulation   → MITRE ATT&CK mapped, ASL-native scenario engine
+STATUS: [PRIVATE ALPHA] — Founder: Psiberus LLC, Doha QA
 ```
 
 ---
@@ -263,16 +256,16 @@ Zig          | ███████░░░░░ | Shellcode loaders, cross-c
 
 ## 📡 ESTABLISH CONNECTION
 
-```ansi
-[38;5;46mnoman@psiberus-lab[0m:~$ netstat --contact
-[38;5;244mPROTOCOL   ENDPOINT                               STATUS[0m
-[38;5;44mEMAIL    [0m→ contact.nomanminhas@gmail.com         [38;5;46mOPEN[0m
-[38;5;44mTWITTER  [0m→ @malicious_dll                        [38;5;44mLISTENING[0m
-[38;5;44mLINKEDIN [0m→ /in/noman-nasir-minhas                [38;5;44mAUTHENTICATED[0m
-[38;5;44mMEDIUM   [0m→ @malicious-dll                        [38;5;202mPUBLISHING[0m
-[38;5;44mGITHUB   [0m→ /NomanNasirMinhas                     [38;5;46mPUBLIC[0m
-[38;5;244mTOPICS: GoLang · Rust · C2 Dev · EDR Evasion · AD Attacks
-        Post-Quantum Crypto · Exploit Dev · Red/Purple Ops[0m
+```
+noman@psiberus-lab:~$ netstat --contact
+PROTOCOL   ENDPOINT                               STATUS
+EMAIL    → contact.nomanminhas@gmail.com         OPEN
+TWITTER  → @malicious_dll                        LISTENING
+LINKEDIN → /in/noman-nasir-minhas                AUTHENTICATED
+MEDIUM   → @malicious-dll                        PUBLISHING
+GITHUB   → /NomanNasirMinhas                     PUBLIC
+TOPICS: GoLang · Rust · C2 Dev · EDR Evasion · AD Attacks
+        Post-Quantum Crypto · Exploit Dev · Red/Purple Ops
 ```
 
 <div align="center">
@@ -288,14 +281,7 @@ Zig          | ███████░░░░░ | Shellcode loaders, cross-c
 
 <div align="center">
 
-```ansi
-[38;2;72;202;228m██████╗ ███████╗███████╗██████╗     ██╗███╗   ██╗    ███████╗██╗██╗     ███████╗███╗   ██╗ ██████╗███████╗[0m
-[38;2;0;180;216m██╔══██╗██╔════╝██╔════╝██╔══██╗    ██║████╗  ██║    ██╔════╝██║██║     ██╔════╝████╗  ██║██╔════╝██╔════╝[0m
-[38;2;72;149;239m██║  ██║█████╗  █████╗  ██████╔╝    ██║██╔██╗ ██║    ███████╗██║██║     █████╗  ██╔██╗ ██║██║     █████╗[0m
-[38;2;123;44;191m██║  ██║██╔══╝  ██╔══╝  ██╔═══╝     ██║██║╚██╗██║    ╚════██║██║██║     ██╔══╝  ██║╚██╗██║██║     ██╔══╝[0m
-[38;2;157;78;221m██████╔╝███████╗███████╗██║         ██║██║ ╚████║    ███████║██║███████╗███████╗██║ ╚████║╚██████╗███████╗[0m
-[38;2;199;125;255m╚═════╝ ╚══════╝╚══════╝╚═╝         ╚═╝╚═╝  ╚═══╝    ╚══════╝╚═╝╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝╚══════╝[0m
-```
+<img src="assets/footer-banner.svg" alt="DEF IN SILENCE" width="880"/>
 
 > *"The best defense is understanding how the offense thinks."*
 
